@@ -1,0 +1,2 @@
+public class Sem1 {
+}
