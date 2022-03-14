@@ -1,33 +1,37 @@
 package clase.readers;
 
-import java.io.File;
+
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
+
 
 import clase.Aplicant;
-import clase.Elev;
 import clase.Student;
 
-public class StudentiReader extends IReader{
+public class StudentiReader extends IReader {
+
+	public StudentiReader(String numeFisier) throws FileNotFoundException {
+		super(numeFisier);
+		// TODO Auto-generated constructor stub
+	}
 
 	@Override
-	public List<Aplicant> readAplicanti(String file) throws FileNotFoundException {
-		Scanner input = new Scanner(new File(file));
-		input.useDelimiter(",|\n");
-		List<Aplicant> studenti = new ArrayList<Aplicant>();
+	public List<Aplicant> readAplicanti() {
+		
+		super.scanner.useDelimiter(",|\n");
+		List<Aplicant> studenti = new ArrayList<>();
 
-		while (input.hasNext()) {
+		while (scanner.hasNext()) {
 			Student student = new Student();
-			super.citireAplicant(input, student);
-			int an_studii = input.nextInt();
-			String facultate = (input.next()).toString();
-			student.setAn_studii(an_studii);
+			super.citireAplicant(scanner, student);
+			int anStudii = scanner.nextInt();
+			String facultate = scanner.next();
+			student.setAnStudii(anStudii);
 			student.setFacultate(facultate);
 			studenti.add(student);
 		}
-		input.close();
+		scanner.close();
 		return studenti;
 	}
 
