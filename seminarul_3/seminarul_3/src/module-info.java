@@ -1,0 +1,2 @@
+module seminarul_3 {
+}
