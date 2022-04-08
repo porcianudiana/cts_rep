@@ -1,4 +1,4 @@
-package main_clase;
+package main;
 
 public class Autobuz {
 	
