@@ -1,0 +1,11 @@
+package FactoryMethod_3.clase;
+
+public class FactoryMedic implements FactoryPersonalSpital{
+
+	@Override
+	public PersonalSpital getPersonalSpital(String numePersonalString, int codPersonal) {
+		// TODO Auto-generated method stub
+		return new Medic(numePersonalString, codPersonal);
+	}
+
+}

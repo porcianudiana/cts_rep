@@ -1,0 +1,20 @@
+package simple_factory_1.clase;
+
+public class SimpleFactory {
+	
+	public Bilet getBilet(TipBilet tipBilet, int nrBilet) {
+		
+		switch (tipBilet) {
+		case ECONOMIC_CLASS: 
+			return new EconomicClass(nrBilet);
+		case BUSINESS_CLASS:
+			return new BusinessClass(nrBilet);
+		default:
+		
+		
+		return null;
+	
+		}
+	}
+
+}

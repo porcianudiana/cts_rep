@@ -1,0 +1,26 @@
+package clase_decorator;
+
+public class Decorator extends DecoratorAbstract{
+	private String mesaj;
+
+	public Decorator(Imprimanta imprimanta, String mesaj) {
+		super(imprimanta);
+		this.mesaj=mesaj;
+	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "Decorator [mesaj=" + mesaj + "]";
+	}
+
+
+
+	@Override
+	public void printeazaVerso() {
+		System.out.println("verso "+mesaj);
+		
+	}
+
+}

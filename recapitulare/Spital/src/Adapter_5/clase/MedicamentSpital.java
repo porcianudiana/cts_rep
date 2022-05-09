@@ -1,0 +1,41 @@
+package Adapter_5.clase;
+
+public class MedicamentSpital implements SoftSpital{
+	
+	
+	
+	private boolean isReteta;
+	
+
+	public MedicamentSpital(boolean isReteta) {
+		super();
+		this.isReteta = isReteta;
+	}
+
+	
+	@Override
+	public String toString() {
+		return "MedicamentSpital [isReteta=" + isReteta + "]";
+	}
+
+
+	@Override
+	public void achizitioneazaMedicament() {
+		System.out.println("ati cumparat med");
+		
+	}
+
+	@Override
+	public boolean prezintaReteta(boolean isReteta) {
+		if(isReteta==true) {
+			achizitioneazaMedicament();
+			return true;
+		}else {
+			System.out.println("nu aveti reteta nu luati");
+			return false;
+		}
+	
+		
+	}
+
+}

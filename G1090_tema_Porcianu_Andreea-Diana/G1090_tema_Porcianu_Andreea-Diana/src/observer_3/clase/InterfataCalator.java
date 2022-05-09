@@ -1,0 +1,8 @@
+package observer_3.clase;
+
+public interface InterfataCalator {
+
+	
+	public void primireAnunt(String anunt);
+	
+}
