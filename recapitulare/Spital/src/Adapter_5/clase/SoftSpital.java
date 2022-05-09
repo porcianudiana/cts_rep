@@ -1,7 +1,0 @@
-package Adapter_5.clase;
-
-public interface SoftSpital {
-	void achizitioneazaMedicament();
-	boolean prezintaReteta(boolean isReteta);
-
-}
