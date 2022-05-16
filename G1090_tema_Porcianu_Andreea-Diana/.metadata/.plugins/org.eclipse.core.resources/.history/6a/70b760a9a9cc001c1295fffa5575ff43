@@ -1,0 +1,31 @@
+package proxy_2.clase;
+
+public class BiletCuPretRedus implements ServiciuBilete{
+
+	
+	private Bilet bilet;
+	
+	
+	
+	public BiletCuPretRedus(Bilet bilet) {
+		super();
+		this.bilet = bilet;
+	}
+
+	@Override
+	public void anulareRezervare() {
+		if(bilet.getPretBilet()<100) {
+			bilet.anulareRezervare();
+		}else {
+			System.out.println("Biletul nu face parte oferta, iar anularea nu va fi gratuita.");
+		}
+			
+	}
+
+	@Override
+	public float getPretBilet() {
+		
+		return bilet.getPretBilet();
+	}
+
+}

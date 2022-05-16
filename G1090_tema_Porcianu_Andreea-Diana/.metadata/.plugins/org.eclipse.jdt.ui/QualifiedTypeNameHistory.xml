@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="simple_factory_1.clase.EconomicClass"/>
+    <fullyQualifiedTypeName name="simple_factory_1.clase.BusinessClass"/>
+    <fullyQualifiedTypeName name="simple_factory_1.clase.SimpleFactory"/>
+    <fullyQualifiedTypeName name="javax.swing.text.Position.Bias"/>
+    <fullyQualifiedTypeName name="simple_factory_1.clase.Bilet"/>
+    <fullyQualifiedTypeName name="simple_factory_1.clase.TipBilet"/>
+    <fullyQualifiedTypeName name="proxy_2.clase.ServiciuBilete"/>
+    <fullyQualifiedTypeName name="proxy_2.clase.Bilet"/>
+    <fullyQualifiedTypeName name="proxy_2.clase.BiletCuPretRedus"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="observer_3.clase.Avion"/>
+    <fullyQualifiedTypeName name="observer_3.clase.Pilot"/>
+    <fullyQualifiedTypeName name="observer_3.clase.InterfataCalator"/>
+    <fullyQualifiedTypeName name="observer_3.clase.Calator"/>
+</qualifiedTypeNameHistroy>

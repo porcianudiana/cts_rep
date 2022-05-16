@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;clase.AutobuzBuilder.setAuzaSofer(...)&apos; to &apos;setPauzaAutobuzBuilder&apos;&#x0D;&#x0A;- Original project: &apos;Builder&apos;&#x0D;&#x0A;- Original element: &apos;clase.AutobuzBuilder.setAuzaSofer(...)&apos;&#x0D;&#x0A;- Renamed element: &apos;clase.AutobuzBuilder.setPauzaAutobuzBuilder(...)&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;setAuzaSofer&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;clase{AutobuzBuilder.java[AutobuzBuilder~setAuzaSofer~Z" name="setPauzaAutobuzBuilder" references="true" stamp="1651690133858" version="1.0"/>
+</session>

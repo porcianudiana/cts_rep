@@ -1,0 +1,7 @@
+package Prototype_4.clase;
+
+public interface Laborator extends Cloneable{
+
+	
+	Laborator copiaza()  throws CloneNotSupportedException;
+}

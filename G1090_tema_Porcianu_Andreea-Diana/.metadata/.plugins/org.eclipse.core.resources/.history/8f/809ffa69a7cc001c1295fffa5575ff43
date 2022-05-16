@@ -1,0 +1,8 @@
+package proxy_2.clase;
+
+public interface ServiciuBilete {
+	
+	void anulareBilet();
+	
+
+}

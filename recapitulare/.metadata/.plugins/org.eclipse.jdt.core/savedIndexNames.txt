@@ -1,0 +1,14 @@
+INDEX VERSION 1.131+C:\Users\acasa\git\cts_rep\recapitulare\.metadata\.plugins\org.eclipse.jdt.core
+3288147116.index
+190316765.index
+1485121983.index
+749124478.index
+475043301.index
+669370811.index
+2721949157.index
+1865797976.index
+32634983.index
+3189733512.index
+3814551627.index
+389389742.index
+96551162.index

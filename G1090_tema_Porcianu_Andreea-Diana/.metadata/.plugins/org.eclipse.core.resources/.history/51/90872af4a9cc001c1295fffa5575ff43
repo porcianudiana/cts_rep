@@ -1,0 +1,32 @@
+package proxy_2.clase;
+
+public class Bilet implements ServiciuBilete{
+	
+	private int nrBilet;
+	private float pretBilet;
+	
+	
+	
+
+	public Bilet(int nrBilet, float pretBilet) {
+		this.nrBilet = nrBilet;
+		this.pretBilet = pretBilet;
+		
+	}
+
+
+
+	@Override
+	public void anulareRezervare() {
+		System.out.println("Rezervarea cu biletul [nrBilet "+nrBilet+"]"+" cu pretul de "+pretBilet+" a fost anulat gratuit.");
+		
+	}
+
+
+
+	@Override
+	public float getPretBilet() {
+		return pretBilet;
+	}
+
+}

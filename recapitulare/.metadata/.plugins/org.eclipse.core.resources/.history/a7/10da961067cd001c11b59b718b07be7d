@@ -1,0 +1,17 @@
+package Prototype_4.main;
+
+
+import Prototype_4.clase.Reteta;
+
+public class Main {
+
+	public static void main(String[] args) throws CloneNotSupportedException {
+		Reteta reteta=new Reteta("Antibiotic");
+		
+		Reteta reteta2=(Reteta)reteta.copiaza();
+		System.out.println(reteta.toString());
+		System.out.println(reteta2.toString());
+
+	}
+
+}

@@ -1,0 +1,27 @@
+package Facade_6.clase;
+
+import java.util.List;
+
+public class Salon {
+	private List<Integer> paturiLibereIntegers;
+	
+	
+	public Salon(List<Integer> paturiLibereIntegers, boolean verificareCamereOcupate) {
+		super();
+		this.paturiLibereIntegers = paturiLibereIntegers;
+		VerificareCamereOcupate = verificareCamereOcupate;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Salon [paturiLibereIntegers=" + paturiLibereIntegers + ", VerificareCamereOcupate="
+				+ VerificareCamereOcupate + "]";
+	}
+
+
+	public boolean VerificareCamereOcupate(int codPat) {
+		return paturiLibereIntegers.contains(codPat);
+	}
+
+}

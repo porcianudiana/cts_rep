@@ -1,0 +1,17 @@
+package Adapter_5.clase;
+
+public class MedicamentSpital implements SoftSpital{
+
+	@Override
+	public void achizitioneazaMedicament() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void prezintaReteta() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

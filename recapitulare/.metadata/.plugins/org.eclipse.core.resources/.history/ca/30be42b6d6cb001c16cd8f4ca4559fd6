@@ -1,0 +1,5 @@
+package factoryMethod.clase;
+
+public class FactoryAutobuz {
+
+}

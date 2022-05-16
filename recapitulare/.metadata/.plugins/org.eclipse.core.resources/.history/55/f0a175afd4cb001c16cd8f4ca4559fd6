@@ -1,0 +1,6 @@
+package factory.clase;
+
+public enum TipTransport {
+
+	AUTOBUX,TROLEIBUZ,TRAMVAI;
+}

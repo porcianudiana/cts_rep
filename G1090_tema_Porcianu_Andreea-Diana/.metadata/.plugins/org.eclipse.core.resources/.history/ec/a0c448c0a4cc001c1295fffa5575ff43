@@ -1,0 +1,20 @@
+package simple_factory_1.clase;
+
+public class Bilet {
+	
+	private int nrBilet;
+
+	public Bilet(int nrBilet) {
+		
+		this.nrBilet = nrBilet;
+	}
+
+	@Override
+	public String toString() {
+		return "Bilet Economic Class [nrBilet=" + nrBilet + "]";
+	}
+	
+	
+	
+
+}
